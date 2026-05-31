@@ -9,12 +9,13 @@ const navLinks = [
   <div class="max-w-[1200px] mx-auto w-full flex items-center justify-between">
     <!-- Left: Logo + Nav -->
     <div class="flex items-center flex-1">
-      <a href={`${import.meta.env.BASE_URL}`}>
+      <a href={`${import.meta.env.BASE_URL}`} class="flex items-center gap-2 no-underline">
         <img
           src={`${import.meta.env.BASE_URL}images/logo.png`}
           alt="The Bali Trip Tour"
-          class="h-[40px] w-auto mr-[30px] md:h-[60px] cursor-pointer"
+          class="h-[36px] w-auto md:h-[44px] cursor-pointer"
         />
+        <span class="text-sm md:text-base font-bold text-primary hidden sm:inline">The Bali Trip Tour</span>
       </a>
 
       <!-- Desktop nav -->
