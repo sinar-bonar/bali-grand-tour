@@ -85,7 +85,7 @@ export const tours: Tour[] = [
   {
     slug: 'private-nusa-penida-tour', title: 'PRIVATE DAY TOUR - Nusa Penida Tour', location: 'Bali, Indonesia',
     image: '/images/nusa-penida.png',
-    gallery: ['/images/nusa-penida.png', '/images/nusa-penida.png'],
+    gallery: ['/images/nusa-penida-1.png', '/images/nusa-penida-2.png', '/images/nusa-penida-3.png'],
     description: 'Take a speedboat to the stunning island of Nusa Penida. Explore dramatic cliff formations at Kelingking Beach, swim at Crystal Bay, and visit Angel\'s Billabong and Broken Beach.',
     highlights: ['Speedboat transfer to Nusa Penida', 'Visit Kelingking Beach (T-Rex cliff)', 'Swim at Angel\'s Billabong infinity pool', 'See Broken Beach natural arch', 'Snorkeling at Crystal Bay'],
     destinations: [
@@ -98,7 +98,7 @@ export const tours: Tour[] = [
   {
     slug: 'ubud-rice-terrace-tour', title: 'Ubud Rice Terrace Tour', location: 'Bali, Indonesia',
     image: '/images/rice-terrace.jpg',
-    gallery: ['/images/rice-terrace.jpg', '/images/rice-terrace.jpg'],
+    gallery: ['/images/rice-terrace-1.jpg', '/images/rice-terrace-2.jpg', '/images/rice-terrace-3.jpg', '/images/rice-terrace-4.jpg'],
     description: 'Discover the iconic Tegallalang Rice Terraces, swing above the jungle at Alas Harum, visit Tegenungan Waterfall, and explore a coffee plantation on this unforgettable tour.',
     highlights: ['Visit Tegallalang Rice Terraces', 'Bali Swing experience at Alas Harum', 'Swim at Tegenungan Waterfall', 'Coffee plantation with Luwak tasting', 'Cultural insights with local guide'],
     destinations: [
@@ -111,7 +111,7 @@ export const tours: Tour[] = [
   {
     slug: 'water-sport-beach-tour', title: 'Water Sport Beach Tour', location: 'Bali, Indonesia',
     image: '/images/water-sport.jpg',
-    gallery: ['/images/water-sport.jpg', '/images/water-sport.jpg'],
+    gallery: ['/images/water-sport-1.jpg', '/images/water-sport-2.jpg'],
     description: 'Get your adrenaline pumping with Bali\'s best water sports at Tanjung Benoa. From jet skiing and parasailing to banana boats and snorkeling, plus visits to Nusa Dua Water Blow and Kuta Beach.',
     highlights: ['Jet skiing and parasailing at Tanjung Benoa', 'Banana boat rides', 'Nusa Dua Water Blow natural attraction', 'Relax at Kuta Beach sunset', 'All safety equipment included'],
     destinations: [
@@ -123,7 +123,7 @@ export const tours: Tour[] = [
   {
     slug: 'lempuyang-east-bali-tour', title: 'Lempuyang East Bali Tour', location: 'Bali, Indonesia',
     image: '/images/lempuyang.jpg',
-    gallery: ['/images/lempuyang.jpg', '/images/lempuyang.jpg'],
+    gallery: ['/images/lempuyang-1.jpg', '/images/lempuyang-2.jpg', '/images/lempuyang-3.jpg', '/images/lempuyang-4.jpg', '/images/lempuyang-5.jpg'],
     description: 'Visit the iconic Gates of Heaven at Lempuyang Temple, explore Tirta Gangga Water Palace, and discover the sacred Goa Lawah Bat Cave Temple on this East Bali cultural tour.',
     highlights: ['Photo at Lempuyang Temple Gate of Heaven', 'Explore Tirta Gangga Water Palace', 'Visit Goa Lawah Bat Cave Temple', 'Mount Agung backdrop at every stop', 'Cultural and spiritual experience'],
     destinations: [
@@ -136,7 +136,7 @@ export const tours: Tour[] = [
   {
     slug: 'bedugul-tanah-lot-tour', title: 'Bedugul Tanah Lot Tour', location: 'Bali, Indonesia',
     image: '/images/bedugul-tanah-lot.jpg',
-    gallery: ['/images/bedugul-tanah-lot.jpg', '/images/bedugul-tanah-lot.jpg'],
+    gallery: ['/images/bedugul-tanah-lot-1.jpg', '/images/bedugul-tanah-lot-2.jpg', '/images/bedugul-tanah-lot-3.jpg', '/images/bedugul-tanah-lot-4.jpg'],
     description: 'Combine the cool highlands of Bedugul with the stunning sea temple of Tanah Lot. Visit the beautiful Ulun Danu Beratan Temple and end the day watching the sunset at the iconic Tanah Lot Temple.',
     highlights: ['Visit Ulun Danu Beratan Temple on the lake', 'Explore Bedugul Botanical Garden', 'Sunset at Tanah Lot Temple', 'Cool mountain climate experience', 'Flexible itinerary with private guide'],
     destinations: [
