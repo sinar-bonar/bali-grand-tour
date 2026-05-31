@@ -7,12 +7,15 @@ const heroImages = [
 
 <section class="relative w-full overflow-hidden">
   <div class="flex transition-transform duration-500 ease-in-out" id="hero-slider">
-    {heroImages.map((img, i) => (
+    {heroImages.map((img, i) => {
+      const imgUrl = img.startsWith('/') ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${img}` : img;
+      return (
       <div
         class="w-full flex-shrink-0 h-[46.875vw] min-h-[300px] max-h-[600px] flex items-center justify-center text-center flex-col px-[50px] md:px-[80px] bg-cover bg-center bg-[#f4f4f4]"
-        style={`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${img}');`}
+        style={`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${imgUrl}');`}
       ></div>
-    ))}
+      );
+    })}
   </div>
 
   <!-- Dot indicators -->

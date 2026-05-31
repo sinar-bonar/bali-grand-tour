@@ -16,7 +16,7 @@ import { tours } from '../data/tours';
         <!-- Image -->
         <div class="relative">
           <img
-            src={tour.image}
+            src={tour.image.startsWith('/') ? `${import.meta.env.BASE_URL.replace(/\/$/, '')}${tour.image}` : tour.image}
             alt={tour.title}
             class="w-full h-[208px] object-cover"
             loading="lazy"
