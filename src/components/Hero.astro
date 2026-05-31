@@ -13,7 +13,7 @@ const heroSubtitle = '';
   <!-- Hero background with gradient overlay -->
   <div
     class="w-full h-[46.875vw] min-h-[300px] max-h-[600px] flex items-center justify-center text-center flex-col px-[50px] md:px-[80px] bg-cover bg-center bg-[#f4f4f4]"
-    style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('{heroImages[0]}');"
+    style={`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${heroImages[0]}');`}
   >
     {heroTitle && (
       <h1 class="text-white text-[26px] md:text-[40px] font-bold max-w-[1200px] mb-[10px]" style="text-shadow: black 0.1em 0.1em 0.2em;">
