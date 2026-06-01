@@ -13,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const { tour } = Astro.props;
-const waUrl = `https://wa.me/628179780980?text=Hi%20The%20Bali%20Trip%20Tour%2C%20I%27m%20interested%20in%20${encodeURIComponent(tour.title)}`;
+const waUrl = `https://wa.me/628179780980?text=Hi%20Bali%20Grand%20Tour%2C%20I%27m%20interested%20in%20${encodeURIComponent(tour.title)}`;
 const mainImage = tour.gallery?.[0] || tour.image;
 ---
 
